@@ -35,9 +35,11 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 gem 'devise'
 gem 'rack-cors', :require => 'rack/cors'
 gem 'rails_12factor', '~> 0.0.3', group: :production
+gem 'active_model_serializers', '~> 0.9.3'
 
 group :production do
   gem 'pg'
+  gem 'active_model_serializers', '~> 0.9.3'
 end
 
 group :development, :test do
